@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">你好，本地化</string>
+
+      <string name="text_a">哈哈，夏天来了！</string>
+
+      <string name="text_b">你更温柔更可爱了</string>
+</resources>
