@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyListView</string>
+    <string name="hello_ListView">Hello ListView!</string>
+
+</resources>
