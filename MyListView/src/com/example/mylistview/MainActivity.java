@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
@@ -45,6 +46,8 @@ public class MainActivity extends Activity implements OnItemClickListener {
 	@Override
 	public void onItemClick(AdapterView<?> view, View arg1, int position, long arg3) {
 		// TODO Auto-generated method stub
-		Toast.makeText(this, ((itemInfo)view.getItemAtPosition(position)).getTitle(), 0).show();  
+		//Toast.makeText(this, ((itemInfo)view.getItemAtPosition(position)).getTitle(), 0).show();
+		Intent intent=new Intent(MainActivity.this,DetailList.class);
+		startActivity(intent);
 	}
 }
